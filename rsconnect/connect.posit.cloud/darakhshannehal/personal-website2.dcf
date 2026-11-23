@@ -1,0 +1,14 @@
+name: personal-website2
+title: personal-website
+username: darakhshannehal
+account: darakhshannehal
+server: connect.posit.cloud
+hostUrl: https://api.connect.posit.cloud/v1
+appId: 01a1f857-c551-5e7e-8a9a-5941d3bea453
+bundleId:
+url:
+version: 1
+quarto_version: 1.10.19
+quarto_engines: markdown
+asMultiple: FALSE
+asStatic: FALSE

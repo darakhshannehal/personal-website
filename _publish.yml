@@ -1,0 +1,4 @@
+- source: project
+  posit-connect-cloud:
+    - id: 01a20987-7119-0b59-661d-8dd3484a5c7b
+      url: https://connect.posit.cloud/darakhshannehal/content/01a20987-7119-0b59-661d-8dd3484a5c7b

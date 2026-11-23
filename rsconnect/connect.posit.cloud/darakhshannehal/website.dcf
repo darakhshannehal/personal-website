@@ -1,0 +1,13 @@
+name: website
+title: website
+username: darakhshannehal
+account: darakhshannehal
+server: connect.posit.cloud
+hostUrl: https://api.connect.posit.cloud/v1
+appId: 01a2041f-6d4f-43c9-35d3-8730f458aa1a
+bundleId:
+url: https://connect.posit.cloud/darakhshannehal/content/01a2041f-6d4f-43c9-35d3-8730f458aa1a
+version: 1
+asMultiple: FALSE
+asStatic: TRUE
+ignoredFiles: blog.html|CV/images/ingredients.png|CV/index.html|Blog

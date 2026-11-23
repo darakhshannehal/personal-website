@@ -1,0 +1,13 @@
+_site/
+_freeze/
+.quarto/
+.Rproj.user/
+.Rhistory
+.RData
+.DS_Store
+Thumbs.db
+**/*.quarto_ipynb
+
+Blog/
+CV/
+/.quarto/

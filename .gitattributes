@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.qmd linguist-language=R
+*.html linguist-detectable=false
+*.js linguist-detectable=false
+*.scss linguist-detectable=false
+*.lua linguist-detectable=false
+_site/* linguist-generated=true

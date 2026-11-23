@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: snow;
+  color: #1a1a1a;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* light theme */
+.navbar {
+  background-color: #9c7a9c;
+  font-size: 19px;
+  border-bottom: 1px solid #856485;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .menu-text {
+  color: snow !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:hover .menu-text,
+.navbar .nav-link.active,
+.navbar .nav-link.active .menu-text {
+  color: #3b173b !important;
+  font-weight: 700;
+}
+
+/* Body links & TOC in light mode */
+a {
+  color: #6e456e;
+  text-decoration-color: rgba(110, 69, 110, 0.4);
+}
+
+a:hover {
+  color: #4a284a;
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a.active {
+  border-left-color: #9c7a9c !important;
+  color: #6e456e !important;
+  font-weight: 600;
+}
+
+/* Inline code & package headings in light mode */
+code {
+  color: #5c335c;
+  background-color: #f3edf3;
+  padding: 0.15em 0.4em;
+  border-radius: 5px;
+}
+
+/* Footer in light mode */
+footer.footer,
+.nav-footer {
+  background-color: #f3edf3 !important;
+  border-top: 1px solid #dfd3df !important;
+  color: #1a1a1a !important;
+}
+
+footer.footer a,
+.nav-footer a {
+  color: #5c335c !important;
+  font-weight: 600;
+}
+
+/* dara=k theme */
+html[data-bs-theme="dark"],
+body.quarto-dark {
+  background-color: #141416;
+  color: #e6e6e6;
+}
+
+html[data-bs-theme="dark"] .navbar,
+body.quarto-dark .navbar {
+  background-color: #1f1d24;
+  border-bottom: 1px solid #363240;
+}
+
+html[data-bs-theme="dark"] .navbar .navbar-brand,
+html[data-bs-theme="dark"] .navbar .nav-link,
+html[data-bs-theme="dark"] .navbar .menu-text,
+body.quarto-dark .navbar .navbar-brand,
+body.quarto-dark .navbar .nav-link,
+body.quarto-dark .navbar .menu-text {
+  color: #f0f0f0 !important;
+}
+
+/* Active & hovered navbar tab in dark mode */
+html[data-bs-theme="dark"] .navbar .nav-link:hover,
+html[data-bs-theme="dark"] .navbar .nav-link:hover .menu-text,
+html[data-bs-theme="dark"] .navbar .nav-link.active,
+html[data-bs-theme="dark"] .navbar .nav-link.active .menu-text,
+html[data-bs-theme="dark"] .navbar .nav-link:focus,
+body.quarto-dark .navbar .nav-link:hover,
+body.quarto-dark .navbar .nav-link.active,
+body.quarto-dark .navbar .nav-link.active .menu-text {
+  color: #d4b2f5 !important;
+  font-weight: 700;
+}
+
+/* Body links & TOC in dark mode */
+html[data-bs-theme="dark"] a,
+body.quarto-dark a {
+  color: #c8a2e8;
+}
+
+html[data-bs-theme="dark"] a:hover,
+body.quarto-dark a:hover {
+  color: #dfc4f7;
+}
+
+html[data-bs-theme="dark"] .sidebar nav[role="doc-toc"] ul > li > a.active {
+  border-left-color: #c8a2e8 !important;
+  color: #c8a2e8 !important;
+}
+
+/* Inline code & package headings */
+html[data-bs-theme="dark"] code,
+body.quarto-dark code {
+  color: #e2c6fa !important;
+  background-color: #292433 !important;
+  padding: 0.15em 0.4em;
+  border-radius: 5px;
+}
+
+/* Footer */
+html[data-bs-theme="dark"] footer.footer,
+html[data-bs-theme="dark"] .nav-footer,
+body.quarto-dark footer.footer,
+body.quarto-dark .nav-footer {
+  background-color: #1f1d24 !important;
+  border-top: 1px solid #363240 !important;
+  color: #e6e6e6 !important;
+}
+
+html[data-bs-theme="dark"] footer.footer a,
+html[data-bs-theme="dark"] .nav-footer a,
+body.quarto-dark footer.footer a,
+body.quarto-dark .nav-footer a {
+  color: #d4b2f5 !important;
+  font-weight: 600;
+}
+
+/* Force bright lavender on navbar hover/active in dark mode */
+html[data-bs-theme="dark"] .navbar,
+body.quarto-dark .navbar {
+  --bs-navbar-color: #f0f0f0;
+  --bs-navbar-hover-color: #e0c3fc;
+  --bs-navbar-active-color: #e0c3fc;
+}
+
+html[data-bs-theme="dark"] .navbar .nav-link:hover,
+html[data-bs-theme="dark"] .navbar .nav-link:hover span,
+html[data-bs-theme="dark"] .navbar .nav-link:focus,
+html[data-bs-theme="dark"] .navbar .nav-link.active,
+html[data-bs-theme="dark"] .navbar .nav-link.active span,
+body.quarto-dark .navbar .nav-link:hover,
+body.quarto-dark .navbar .nav-link:hover span,
+body.quarto-dark .navbar .nav-link.active,
+body.quarto-dark .navbar .nav-link.active span {
+  color: #e0c3fc !important;
+}

@@ -1,0 +1,39 @@
+---
+title: "R Packages"
+format: html
+---
+
+## `mmisindia`
+
+R Package for [Monthly Malaria Surveillance Data](https://ncvbdc.mohfw.gov.in/index1.php?lang=1&level=1&sublinkid=5879&lid=3957) (NCVBDC)
+
+`{mmisindia}` provides cleaned monthly malaria surveillance data from NCVBDC's Monthly Malaria Information System (MMIS) for India (2020–2026), covering 36 States and Union Territories.
+
+- Extracted and validated records from PDF reports using gridline interpolation and automated text extraction.
+- Implemented functions for data access, indicator computation (API, AFI, AVI), and visualization (choropleths, heatmaps, trend plots).
+- Added spatial analysis workflows using `{sf}` and `{spdep}`, including Global Moran's I and LISA cluster maps.
+
+------------------------------------------------------------------------
+
+## `hmisindia`
+
+R Package for [Health Management Information System](https://hmis.mohfw.gov.in/#!/) (MoHFW)
+
+Package for accessing and analyzing India's HMIS data with functions for querying state- and district-level indicators, visualization, and spatial analysis.
+
+- Authored vignettes on neonatal and maternal mortality by leading cause, and neonatal mortality seasonality.
+- Handled longitudinal HMIS indicator renames and reporting gaps (including the 2016–17 gap in cause-specific deaths).
+- Built end-to-end pipelines spanning data querying, wrangling, and visualization for public health reporting.
+
+------------------------------------------------------------------------
+
+## `vayuayanR`
+
+R port for Air Quality Data · [GitHub](https://github.com/saketlab/vayuayan)
+
+R package for fetching and analyzing air quality data for India, covering CPCB ground station measurements (historical and live) and WUSTL ACAG satellite $\text{PM}_{2.5}$ estimates.
+
+- Validated output parity against the Python implementation.
+- Authored three vignettes: Delhi (ward-level monitoring gap analysis), Mumbai, and a five-city metro comparison.
+- Upgraded `cpcb_add_coords()` to query the CPCB coordinates API with a Nominatim geocoding fallback.
+- Documented all exported functions and resolved CI workflows (`R-CMD-check`, `pkgdown`, `test-coverage`).

@@ -1,0 +1,27 @@
+---
+title: ""
+toc: false
+format: html
+---
+
+## Darakhshan Nehal
+
+**Project Research Associate · Koita Centre for Digital Health, IIT Bombay**
+
+I work at the intersection of public health, climate, and open-source R tooling, building data packages, analyzing epidemiological patterns, and making complex health data accessible and reproducible.
+
+**Current work:**
+
+- **Epidemiological analysis:** Examining temporal trends in malaria, neonatal, and maternal mortality using India's Health Management Information System (HMIS) data.
+- **Climate & health data integration:** Linking climate covariates with health outcomes to evaluate spatial and lagged relationships across Indian states.
+- **Open-source R tooling:** Developing R packages and reproducible pipelines (`hmisindia`, `mmisindia`, `vayuayanR`) to standardize health and air quality data ingestion, validation, and visualization.
+
+**Interests:**
+
+- Infectious disease epidemiology
+
+- Climate & environmental determinants of health
+
+- Reproducible research workflows & data visualization
+
+- Open-source research software
