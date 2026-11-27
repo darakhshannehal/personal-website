@@ -7,7 +7,7 @@ format: html
 
 Selected data visualizations and multi-panel figures built with `ggplot2` in R.
 
-![](images/heatmap.png) *Longitudinal heatmap of forcibly displaced children under age 5 across conflict-affected countries (2000–2024), using data from the UNHCR `{refugees}` R package.*
+![](images/refugees_heatmap.png) *Longitudinal heatmap of forcibly displaced children under age 5 across conflict-affected countries (2000–2024), using data from the UNHCR `{refugees}` R package.*
 
 ------------------------------------------------------------------------
 
