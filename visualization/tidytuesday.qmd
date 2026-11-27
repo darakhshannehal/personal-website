@@ -6,9 +6,11 @@ format: html
 
 [Code and visualizations](https://github.com/darakhshannehal/TidyTuesday) created for **#TidyTuesday**, a weekly social data project organized by the [Data Science Learning Community](https://dslc.io/).
 
-![](images/cranes.png) *Seasonal crane count trends (1994–2024) at Lake Hornborgasjön, Sweden, highlighting shifts in autumn migration timing.*
+![](images/ocean_temperature.png)
 
-------------------------------------------------------------------------
+|  |
+|----|
+| ![](images/cranes.png) *Seasonal crane count trends (1994–2024) at Lake Hornborgasjön, Sweden, highlighting shifts in autumn migration timing.* |
 
 ![](images/frog_map.png) *Spatial distribution of Cane Toads (`Rhinella marina`) and Green and Golden Bell Frogs (`Litoria aurea`) across Australia using FrogID occurrence records.*
 
